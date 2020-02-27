@@ -19,9 +19,9 @@ If you make use of these maps, please cite [2002.0xxxx](https://arxiv.org/abs/20
 
 The maps provided are designed for use with the following caveats:
 
-- **Region of Interest:** working in galactic coordinates, these maps are designed to be used in a region defined by |b|>2 degrees and r<30 degrees, where r is the angle from the galactic center. 
+- **Region of Interest:** working in galactic coordinates, these maps are designed to be used in a region defined by |b|>2 degrees and r<25 degrees, where r is the angle from the galactic center. 
 - **Fermi Dataset:** the maps are designed to be used with the default dataset provided with [NPTFit](https://github.com/bsafdi/NPTFit), see [here](https://nptfit.readthedocs.io/en/latest/Example1_Overview_of_the_Fermi_Data.html) for specifics.
 
-Both maps are normalised so that a coefficient of O(1) is returned from a fit. The units of maps are counts/pixel and thus they have been exposure corrected, and also smoothed according to the appropriate Fermi point spread function.
+Both maps are normalised to have unit mean in an ROI defined by |b|>2 degrees and r<30 degrees, chosen as this is the normalization for templates provided with [NPTFit](https://github.com/bsafdi/NPTFit/), with which these templates can be easily interfaced. The units of maps are counts/pixel and thus they have been exposure corrected, and also smoothed according to the appropriate Fermi point spread function.
 
 Equivalent versions of the maps in other regions of interest can be made available upon request.
