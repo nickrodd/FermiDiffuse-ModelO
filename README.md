@@ -2,18 +2,18 @@
 
 **An improved model of the diffuse emission in the inner galaxy, ideal for studying the galactic center excess.**
 
-[![arXiv](https://img.shields.io/badge/arXiv-2002.0xxxx%20-green.svg)](https://arxiv.org/abs/2002.0xxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-2002.12373%20-green.svg)](https://arxiv.org/abs/2002.12373)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![model_o](https://github.com/nickrodd/FermiDiffuse-ModelO/blob/master/ModelO/Model_O.png "Pi0+Brem emission in default ROI")
 
 ## Maps
 
-Counts templates for the neutral pion plus bremsstrahlung (pibrem) and inverse Compton (ics) emission appropriate for analyses of the Fermi galactic center excess are provided. Both files are in the `ModelO` directory and are [healpix](https://healpix.jpl.nasa.gov/) `nside=128` maps provided as numpy arrays. As described in [2002.0xxxx](https://arxiv.org/abs/2002.0xxxx), this model represents a significantly improved fit of the inner galaxy and therefore helps alleviate the central systematic for galactic center excess analyses: uncertainties in the diffuse emission model. 
+Counts templates for the neutral pion plus bremsstrahlung (pibrem) and inverse Compton (ics) emission appropriate for analyses of the Fermi galactic center excess are provided. Both files are in the `ModelO` directory and are [healpix](https://healpix.jpl.nasa.gov/) `nside=128` maps provided as numpy arrays. As described in [2002.12373](https://arxiv.org/abs/2002.12373), this model represents a significantly improved fit of the inner galaxy and therefore helps alleviate the central systematic for galactic center excess analyses: uncertainties in the diffuse emission model. 
 
 **NB:** these maps are tailored to a specific region of interest, energy range, and Fermi dataset, and should not be used more generally. See the caveats section below for details.
 
-If you make use of these maps, please cite [2002.0xxxx](https://arxiv.org/abs/2002.0xxxx) for which these specific  maps were created, but also [1611.06644](https://arxiv.org/abs/1611.06644) and [1901.03822](https://arxiv.org/abs/1901.03822) where closely related maps were generated.
+If you make use of these maps, please cite [2002.12373](https://arxiv.org/abs/2002.12373) for which these specific  maps were created, but also [1611.06644](https://arxiv.org/abs/1611.06644) and [1901.03822](https://arxiv.org/abs/1901.03822) where closely related maps were generated.
 
 ## Caveats
 
